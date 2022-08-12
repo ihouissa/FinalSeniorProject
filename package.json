@@ -1,0 +1,35 @@
+{
+  "name": "ibrahimseniorproject",
+  "version": "1.0.0",
+  "description": "senior project",
+  "main": "app.js",
+  "scripts": {
+    "devStart": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihouissa/IbrahimSeniorProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ihouissa/IbrahimSeniorProject/issues"
+  },
+  "homepage": "https://github.com/ihouissa/IbrahimSeniorProject#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "dotenv": "^16.0.1",
+    "prohairesis": "^1.2.5"
+  },
+  "devDependencies": {
+    
+    "nodemon": "^2.0.19"
+  }
+}
